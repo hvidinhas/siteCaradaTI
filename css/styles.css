@@ -95,6 +95,29 @@ main {
     color: white; 
 }
 
+.container-redes {
+    display: table;
+    text-align: center;
+    width: 100%;
+    
+}
+#mastodon {
+    display: inline-block;
+    max-width: 5.5%;  
+}
+
+#instagram {
+    display: inline-block;
+    max-width: 5.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#spotify {
+    display: inline-block;
+    max-width: 5.5%;
+}
+
 footer {
     position: relative;
     margin-top: 7%;
