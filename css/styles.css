@@ -101,21 +101,10 @@ main {
     width: 100%;
     
 }
-#mastodon {
-    display: inline-block;
-    max-width: 5.5%;  
-}
-
-#instagram {
+.redes {
     display: inline-block;
     max-width: 5.5%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-#spotify {
-    display: inline-block;
-    max-width: 5.5%;
+    padding: 0 2% 0 2%; 
 }
 
 footer {
