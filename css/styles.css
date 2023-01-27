@@ -239,6 +239,19 @@ footer {
         font-size: 20px;
         padding: 0 5% 0;
     }
+
+    /** Página Links**/
+
+    #texto-links {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .links {
+        display: inline-block;
+        max-width: 18%;
+        padding: 10% 3% 0 3%; 
+    }
 }
 
 @media (max-width: 1050px) {
