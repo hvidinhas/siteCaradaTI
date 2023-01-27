@@ -43,3 +43,12 @@ https://www.instagram.com/caradati/
 
 - Spotify
 https://open.spotify.com/user/heitorvidinhas?si=62d7fc4ea6c14362
+
+Webmin
+https://caradati.ddnsking.com:10000/
+
+Plex
+http://caradati.ddnsking.com:32400/manage/index.html#
+
+Transmission
+http://caradati.ddnsking.com:9091/transmission/web/

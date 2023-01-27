@@ -107,6 +107,20 @@ main {
     padding: 0 2% 0 2%; 
 }
 
+/* Página Links*/
+
+.container-links {
+    display: table;
+    text-align: center;
+    width: 100%;
+    
+}
+.links {
+    display: inline-block;
+    max-width: 5.5%;
+    padding: 10% 3% 0 3%; 
+}
+
 footer {
     position: relative;
     margin-top: 7%;
