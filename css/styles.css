@@ -117,7 +117,7 @@ main {
 }
 .links {
     display: inline-block;
-    max-width: 5.5%;
+    max-width: 7%;
     padding: 10% 3% 0 3%; 
 }
 
@@ -135,9 +135,9 @@ footer {
 }
 
 
-/** Tablets e Celulares **/
+/** celulares **/
 
-@media (max-width: 480px) {
+@media (max-width: 830px) {
 
     .logo {
         display: block;
@@ -166,61 +166,69 @@ footer {
 
     .texto {
         text-align: left;
-        font-size: 18px;
+        font-size: 16px;
         padding: 0 5% 0;
     }
 
     #atendimento {
         text-align: left;
-        font-size: 18px;
+        font-size: 16px;
         padding: 0 5% 0;
     }
+
+     #texto-redes {
+        text-align: center;
+    }
+
+    .container-redes {
+        display: table;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .redes {
+        display: inline-block;
+        max-width: 10%;
+        padding: 0 3% 0 3%; 
+    }
+
+    .container-links {
+        display: table;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .links {
+        display: inline-block;
+        max-width: 30%;
+        padding: 10% 5% 5% 5%; 
+    }
 }
 
-@media (max-width: 360px) {
+/** Tablets **/
+
+@media (max-width: 1000px) {
+
     .logo {
         display: block;
-        max-width: 100%;
+        max-width: 40%;
         margin: auto;
     }
 
     .resolve-problemas {
         display: block;
-        max-width: 100%;
-        font-size: 30px;
-        text-align: center;
+        margin: auto;
+        font-size: 40px;
     }
 
-    .foto-ascii {
-        display: block;
-        font-size: 6px;
-    }
-
-    .div-texto {
-        display: block;
+    main {
         max-width: 100%;
     }
-}
-
-
-
-@media (max-width: 840px) {
-    .logo {
-        display: block;
-        max-width: 60%;
-        margin: auto;
-    }
-
-    .resolve-problemas {
-        display: block;
-        margin: auto;
-        font-size: 35px;
-    }
-
     .foto-ascii {
         display: block;
-        font-size: 7px;
         text-align: center;
+        font-size: 10px;
+
     }
 
     .div-texto {
@@ -236,30 +244,34 @@ footer {
 
     #atendimento {
         text-align: left;
-        font-size: 20px;
+        font-size: 18px;
         padding: 0 5% 0;
     }
 
-    /** Página Links**/
-
-    #texto-links {
+    #texto-redes {
         text-align: center;
-        font-size: 30px;
+    }
+    .container-redes {
+        display: table;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .redes {
+        display: inline-block;
+        max-width: 6%;
+        padding: 0 3% 0 3%; 
     }
 
+    .container-links {
+        display: table;
+        text-align: center;
+        width: 100%;
+        
+    }
     .links {
         display: inline-block;
-        max-width: 18%;
-        padding: 10% 3% 0 3%; 
-    }
-}
-
-@media (max-width: 1050px) {
-    .logo {
-        max-width: 65%;
-    }
-    
-    .foto-ascii {
-        font-size: 6.7px;
+        max-width: 20%;
+        padding: 10% 5% 5% 5%; 
     }
 }
