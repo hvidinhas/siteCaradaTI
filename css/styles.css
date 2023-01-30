@@ -13,6 +13,8 @@
     font-style: normal;
 }
 
+/** ------------- Padrões ------------- **/
+
 body {
     background-color: black;
 }
@@ -60,144 +62,32 @@ footer {
     color: #008000;
 }
 
-/** ------------- Desktops ------------- **/
-
-@media only screen and (min-width: 992px) {
-
-.container-logo {
-    display: table;
-    width: 100%;
-}
-
-.logo {
-    display: table-cell;
-    max-width: 90%;
-    padding: 15px;
-    vertical-align: middle;
-    margin-left: 50px;
-}
-
-.resolve-problemas {
-    display: table-cell;
-    margin-right: 50px;
-    font-size: 45px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 20px;
-}
-
-main {
-    display: table;
-}
-
-.foto-ascii {
-    display: table-cell;
-    font-size: xx-small;
-    padding: 5px;
-}
-
-.div-texto {
-    display: table-cell;
-    text-align: justify;
-    line-height: 1.5;
-    max-width: 50%;
-    padding: 15px;
-    border-right: 15px;
-}
-
-
-#atendimento {
-    font-size: 20px;
-}
-
-.container-redes {
-    display: table;
-    text-align: center;
-    width: 100%;
-    
-}
-.redes {
-    display: inline-block;
-    max-width: 5.5%;
-    padding: 0 2% 0 2%; 
-}
-
-/* Página Links*/
-
-.container-links {
-    display: table;
-    text-align: center;
-    width: 100%;
-    
-}
-.links {
-    display: inline-block;
-    max-width: 7%;
-    padding: 10% 3% 0 3%; 
-}
-
-footer {
-    position: relative;
-    margin-top: 7%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    padding: 3px;
-}
-}
-
 /** ------------- Celulares ------------- **/
 
 @media only screen and (max-width: 600px) {
-
+    
     body {
-        width: 100%;
+        max-width: 100%;
         height: 100%;
     }
 
     .logo {
-        display: block;
         max-width: 60%;
-        margin: auto;
-    }
-
-    .resolve-problemas {
         display: block;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+    .resolve-problemas {
         font-size: 30px;
         text-align: center;
-        padding: 20px;
+        padding: 6% 0 5% 0;
     }
 
     .foto-ascii {
-        display: block;
-        text-align: center;
         font-size: 6px;
-
     }
 
-    .div-texto {
-        display: block;
-        max-width: 100%;
-    }
-
-    .texto {
-        text-align: left;
-        font-size: 16px;
-        padding: 0 5% 0;
-    }
-
-    #atendimento {
-        text-align: left;
-        font-size: 17px;
-        padding: 0 5% 0;
-    }
-
-    #texto-redes {
-        text-align: center;
-        
-    }
     .container-redes {
         display: table;
         text-align: center;
@@ -210,75 +100,51 @@ footer {
         padding: 0 4% 0 4%; 
     }
 
-    footer {
-        font-size: 10px;
-    }
+    
+    /**--Links--**/
 
-    /** ------------- Página Links ------------- **/
-    .container-links {
-        display: table;
-        text-align: center;
-        width: 100%;
-        
-    }
-    .links {
-        display: inline-block;
-        max-width: 30%;
-        padding: 10% 2% 2% 5%; 
-    }
+        .container-links {
+            display: table;
+            text-align: center;
+            width: 100%;
+            
+        }
+        .links {
+            display: inline-block;
+            max-width: 30%;
+            padding: 10% 3% 0 3%; 
+        }
+
 }
-
 
 /** ------------- Tablets ------------- **/
 
 @media only screen and (min-width: 768px) {
 
+
     body {
-        width: 100%;
+        max-width: 100%;
         height: 100%;
     }
 
     .logo {
+        max-width: 60%;
         display: block;
-        max-width: 40%;
-        margin: auto;
-    }
-
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
     .resolve-problemas {
-        display: block;
-        margin: auto;
         font-size: 30px;
         text-align: center;
-        padding: 30px;
+        padding: 6% 0 5% 0;
     }
 
     .foto-ascii {
-        display: block;
-        text-align: center;
-        font-size: 11px;
-
+        font-size: 7px;
+        margin-left: 21%;
     }
 
-    .div-texto {
-        display: block;
-        max-width: 100%;
-    }
-
-    .texto {
-        text-align: left;
-        font-size: 20px;
-        padding: 0 5% 0;
-    }
-
-    #atendimento {
-        text-align: left;
-        font-size: 18px;
-        padding: 0 5% 0;
-    }
-
-    #texto-redes {
-        text-align: center;
-    }
     .container-redes {
         display: table;
         text-align: center;
@@ -288,19 +154,92 @@ footer {
     .redes {
         display: inline-block;
         max-width: 6%;
-        padding: 0 3% 0 3%; 
+        padding: 0 4% 0 4%; 
     }
 
-    .container-links {
+    
+    /**--Links--**/
+
+        .container-links {
+            display: table;
+            text-align: center;
+            width: 100%;
+            
+        }
+        .links {
+            display: inline-block;
+            max-width: 30%;
+            padding: 10% 3% 0 3%; 
+        }
+
+}
+
+/** ------------- Desktops ------------- **/
+
+@media only screen and (min-width: 992px) {
+
+    body {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        max-width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+    .resolve-problemas {
+        font-size: 50px;
+        text-align: center;
+        padding: 6% 0 5% 0;
+    }
+
+    .foto-ascii {
+        font-size: 9px;
+        margin-left: 25%;
+    }
+
+    .div-texto {
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    #atendimento {
+        font-size: 20px;
+    }
+
+    .container-redes {
         display: table;
         text-align: center;
         width: 100%;
         
     }
-    .links {
+    .redes {
         display: inline-block;
-        max-width: 20%;
-        padding: 10% 5% 5% 5%; 
+        max-width: 4%;
+        padding: 0 4% 0 4%; 
     }
-}
 
+    
+    /**--Links--**/
+
+        #texto-links {
+            font-size: 20px;
+        }
+
+        .container-links {
+            display: table;
+            text-align: center;
+            width: 100%;
+            
+        }
+        .links {
+            display: inline-block;
+            max-width: 12%;
+            padding: 10% 3% 0 3%; 
+        }
+
+}
