@@ -247,7 +247,9 @@ footer {
     .resolve-problemas {
         display: block;
         margin: auto;
-        font-size: 40px;
+        font-size: 30px;
+        text-align: center;
+        padding: 30px;
     }
 
     .foto-ascii {
