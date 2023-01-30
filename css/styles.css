@@ -88,6 +88,12 @@ footer {
         font-size: 6px;
     }
 
+    .div-texto {
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
     .container-redes {
         display: table;
         text-align: center;
@@ -143,6 +149,12 @@ footer {
     .foto-ascii {
         font-size: 7px;
         margin-left: 21%;
+    }
+
+    .div-texto {
+        margin-left: 5%;
+        margin-right: 5%;
+
     }
 
     .container-redes {
