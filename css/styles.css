@@ -19,6 +19,10 @@ body {
     background-color: black;
 }
 
+.logo {
+    padding-top: 3%;
+}
+
 .resolve-problemas {
     font-family: Source Code Pro;
     color: white;
