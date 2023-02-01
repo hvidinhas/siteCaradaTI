@@ -149,7 +149,7 @@ footer {
     }
 
     .logo {
-        max-width: 60%;
+        max-width: 40%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -162,7 +162,7 @@ footer {
     }
 
     .foto {
-        width: 60%;
+        width: 55%;
     }
 
     .div-texto {
@@ -210,14 +210,14 @@ footer {
     }
 
     .logo {
-        max-width: 60%;
+        max-width: 40%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         }
         
     .resolve-problemas {
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
         padding: 6% 0 5% 0;
     }
