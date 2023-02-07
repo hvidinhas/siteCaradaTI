@@ -1,3 +1,12 @@
+/* Fontes */
+@font-face {
+    font-family: "Source Code Pro";
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /** ------------- Global ------------- **/
 
 body {
@@ -39,7 +48,7 @@ address {
 }
 
 footer {
-    padding-top: 40%;
+    padding-top: 30%;
     text-align: center;
     font-family: 'Source Code Pro';
     color: #008000;
