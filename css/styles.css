@@ -13,7 +13,7 @@
     font-style: normal;
 }
 
-/** ------------- Padrões ------------- **/
+/** ------------- Global ------------- **/
 
 body {
     background-color: black;
@@ -45,28 +45,14 @@ body {
     text-decoration: none;
 }
 
-#link:hover {
-    background-color: #008000;    
-    transition-delay: 0,5s;
-    color: black;
-}
-
-#link-voltar {
-    font-family: 'Source Code Pro';
-    color: #008000;
-    text-decoration: none;
-}
-
-#link-voltar:hover {
-    background-color: #008000;    
-    transition-delay: 0,5s;
-    color: black;
-}
-
 #atendimento {
     font-family: Source Code Pro;
     font-weight: bold;
     color: white; 
+}
+
+address {
+    font-style: normal;
 }
 
 footer {
@@ -231,6 +217,24 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
 
+    }
+
+    #link:hover {
+        background-color: #008000;    
+        transition-delay: 0,5s;
+        color: black;
+    }
+    
+    #link-voltar {
+        font-family: 'Source Code Pro';
+        color: #008000;
+        text-decoration: none;
+    }
+    
+    #link-voltar:hover {
+        background-color: #008000;    
+        transition-delay: 0,5s;
+        color: black;
     }
 
     #atendimento {
