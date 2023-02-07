@@ -1,22 +1,8 @@
-/* Fontes */
-@font-face {
-    font-family: "Source Code Pro";
-    src: url('../fonts/Source_Code_Pro/SourceCodePro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "IBM Plex Mono";
-    src: url('../fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /** ------------- Global ------------- **/
 
 body {
     background-color: black;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .logo {
@@ -24,7 +10,6 @@ body {
 }
 
 .resolve-problemas {
-    font-family: Source Code Pro;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
@@ -39,14 +24,12 @@ body {
 }
 
 .texto {
-    font-family: Source Code Pro;
     font-size: 20px;
     color: #008000;
     text-decoration: none;
 }
 
 #atendimento {
-    font-family: Source Code Pro;
     font-weight: bold;
     color: white; 
 }
