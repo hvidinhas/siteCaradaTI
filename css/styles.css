@@ -54,6 +54,10 @@ footer {
     color: #008000;
 }
 
+footer p {
+    font-size: 0.7em;
+}
+
 #link-voltar {
     font-family: 'Source Code Pro', monospace;
     text-decoration: none;
