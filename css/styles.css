@@ -253,6 +253,15 @@ footer p {
         padding: 0 4% 0 4%; 
     }
 
+    .redes:hover {
+        transform: scale(1.4,1.4);
+        transition-duration: .5s;
+    }
+    .redes:not(:hover) {
+        transform: scale(1,1);
+        transition-duration: .5s;
+    }
+
     footer {
         padding-top: 10%;
     }
