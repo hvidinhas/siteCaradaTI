@@ -47,6 +47,7 @@ address {
     font-style: normal;
 }
 
+
 footer {
     padding-top: 30%;
     text-align: center;
@@ -101,6 +102,11 @@ footer p {
 
     #atendimento {
         text-align: center;
+    }
+
+
+    .finger-click {
+        width: 7%;
     }
 
     .container-redes {
@@ -162,6 +168,10 @@ footer p {
         margin-left: 5%;
         margin-right: 5%;
 
+    }
+
+    .finger-click {
+        width: 4%;
     }
 
     .container-redes {
@@ -239,6 +249,11 @@ footer p {
 
     #atendimento {
         font-size: 20px;
+    }
+
+
+    .finger-click {
+        display: none;
     }
 
     .container-redes {
