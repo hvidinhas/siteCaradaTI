@@ -47,6 +47,9 @@ address {
     font-style: normal;
 }
 
+#link {
+    border-bottom: 1px dotted;
+}
 
 footer {
     padding-top: 30%;
