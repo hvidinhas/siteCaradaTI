@@ -6,12 +6,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Oswald";
+    src: url('../fonts/Oswald/Oswald-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /** ------------- Global ------------- **/
 
 body {
     background-color: black;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Oswald', monospace;
 }
 
 .logo {
@@ -34,7 +40,7 @@ body {
 
 .texto {
     font-size: 20px;
-    color: #008000;
+    color: white;
     text-decoration: none;
 }
 
@@ -54,8 +60,8 @@ address {
 footer {
     padding-top: 30%;
     text-align: center;
-    font-family: 'Source Code Pro';
-    color: #008000;
+    font-family: 'Osvald';
+    color: white;
 }
 
 footer p {
@@ -63,9 +69,9 @@ footer p {
 }
 
 #link-voltar {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Osvald', monospace;
     text-decoration: none;
-    color: #008000;
+    color: white;
 }
 
 /** ------------- Celulares ------------- **/
