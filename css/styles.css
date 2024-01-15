@@ -21,7 +21,7 @@
 
 body {
     background-color: black;
-    font-family: 'Oswald', monospace;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .logo {
@@ -64,7 +64,7 @@ address {
 footer {
     padding-top: 30%;
     text-align: center;
-    font-family: 'Osvald';
+    font-family: 'Source Code Pro';
     color: white;
 }
 
@@ -73,7 +73,7 @@ footer p {
 }
 
 #link-voltar {
-    font-family: 'Osvald', monospace;
+    font-family: 'Source Code Pro', monospace;
     text-decoration: none;
     color: white;
 }
