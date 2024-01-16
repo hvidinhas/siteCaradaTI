@@ -7,21 +7,29 @@
 }
 
 @font-face {
-    font-family: "Oswald";
-    src: url('../fonts/Oswald/Oswald-Medium.ttf') format('truetype');
+    font-family: "Inter";
+    src: url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url('../fonts/Inter/static/Inter-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 /** ------------- Global ------------- **/
-.oculto {
-  display: none;
-}
-
-
 body {
     background-color: black;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Inter', monospace;
+}
+
+.textoBold {
+    font-family: 'Inter-SemiBold', monospace;
+    font-size: 27px;
+    color: white;
 }
 
 .logo {
@@ -64,7 +72,7 @@ address {
 footer {
     padding-top: 30%;
     text-align: center;
-    font-family: 'Source Code Pro';
+    font-family: 'Inter';
     color: white;
 }
 
@@ -73,7 +81,7 @@ footer p {
 }
 
 #link-voltar {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Inter', monospace;
     text-decoration: none;
     color: white;
 }
