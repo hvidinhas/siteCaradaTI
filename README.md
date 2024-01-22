@@ -1,4 +1,4 @@
-# caradati_2023
+# Site da Cara da TI
 
 Esse site tem como objetivo registar meu aprendizado com HTML, CSS e um pouco de Javascript, como parte de começar a criar coisas, ao invés de apenas resolver problemas.
 Hoje ele é o site principal para a divulgação do meu trabalho como suporte de TI.
