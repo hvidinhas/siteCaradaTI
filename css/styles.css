@@ -63,6 +63,13 @@ body {
     text-decoration: none;
 }
 
+.saibaMais {
+    font-family: 'SourceCodePro-SemiBold', monospace;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #008000;
+}
+
 #atendimento {
     font-weight: bold;
     color: #008000; 
@@ -261,6 +268,12 @@ footer p {
         margin-left: 5%;
         margin-right: 5%;
 
+    }
+
+    .saibaMais:hover {
+        background-color: #008000;    
+        transition-delay: 0,5s;
+        color: black;
     }
 
     #link:hover {
