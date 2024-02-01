@@ -143,32 +143,10 @@ footer p {
     .finger-click {
         width: 7%;
     }
-
-    .container-redes {
-        display: table;
-        text-align: center;
-        width: 100%;
-        
-    }
-    .redes {
-        display: inline-block;
-        max-width: 11%;
-        padding: 0 4% 0 4%; 
-    }
     
-    /**--Links--**/
-
-        .container-links {
-            display: table;
-            text-align: center;
-            width: 100%;
-            
-        }
-        .links {
-            display: inline-block;
-            max-width: 22%;
-            padding: 10% 10% 0 10%; 
-        }
+    .icon {
+        width: 10%;
+    }
 
 }
 
@@ -209,32 +187,10 @@ footer p {
         width: 4%;
     }
 
-    .container-redes {
-        display: table;
-        text-align: center;
-        width: 100%;
-        
-    }
-    .redes {
-        display: inline-block;
-        max-width: 6%;
-        padding: 0 4% 0 4%; 
+    .icon {
+        width: 7%;
     }
 
-    
-    /**--Links--**/
-
-        .container-links {
-            display: table;
-            text-align: center;
-            width: 100%;
-            
-        }
-        .links {
-            display: inline-block;
-            max-width: 22%;
-            padding: 10% 10% 0 10%; 
-        }
 
 }
 
@@ -297,31 +253,14 @@ footer p {
         display: none;
     }
 
-    .container-redes {
-        display: table;
-        text-align: center;
-        width: 100%;
-        
-    }
-    .redes {
-        display: inline-block;
-        max-width: 4%;
-        padding: 0 4.5% 0 4.5%; 
-    }
-
-    .redes:hover {
-        transform: scale(1.4,1.4);
-        transition-duration: .5s;
-    }
-    .redes:not(:hover) {
-        transform: scale(1,1);
-        transition-duration: .5s;
-    }
-
     footer {
         padding-top: 10%;
     }
     
+    .icon {
+        width: 2%;
+    }
+
     /**--Links--**/
 
         #texto-links {
