@@ -57,6 +57,13 @@ body {
     padding-bottom: 5%;
 }
 
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+}
+
 .texto {
     font-size: 20px;
     color: white;
@@ -126,6 +133,10 @@ footer p {
         width: 50%;
     }
 
+    .imagem {
+        width: 40%;
+    }
+
     .div-texto {
         margin-left: 5%;
         margin-right: 5%;
@@ -177,6 +188,10 @@ footer p {
         width: 40%;
     }
 
+    .imagem {
+        width: 30%;
+    }
+
     .div-texto {
         margin-left: 5%;
         margin-right: 5%;
@@ -218,6 +233,10 @@ footer p {
 
     .foto {
         width: 21%;
+    }
+
+    .imagem {
+        width: 20%;
     }
 
     .div-texto {
