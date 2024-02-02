@@ -145,7 +145,7 @@ footer p {
     }
     
     .icon {
-        width: 10%;
+        width: 9%;
     }
 
 }
@@ -188,7 +188,7 @@ footer p {
     }
 
     .icon {
-        width: 7%;
+        width: 5%;
     }
 
 
@@ -258,25 +258,7 @@ footer p {
     }
     
     .icon {
-        width: 2%;
+        width: 2.5%;
     }
-
-    /**--Links--**/
-
-        #texto-links {
-            font-size: 20px;
-        }
-
-        .container-links {
-            display: table;
-            text-align: center;
-            width: 100%;
-            
-        }
-        .links {
-            display: inline-block;
-            max-width: 8%;
-            padding: 10% 3% 0 3%; 
-        }
 
 }
