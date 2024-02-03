@@ -61,7 +61,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10%;
+
 }
 
 .texto {
@@ -135,6 +135,7 @@ footer p {
 
     .imagem {
         width: 40%;
+        padding: 10%;
     }
 
     .div-texto {
@@ -190,6 +191,7 @@ footer p {
 
     .imagem {
         width: 30%;
+        padding: 10%;
     }
 
     .div-texto {
@@ -237,6 +239,7 @@ footer p {
 
     .imagem {
         width: 20%;
+        padding: 4%;
     }
 
     .div-texto {
