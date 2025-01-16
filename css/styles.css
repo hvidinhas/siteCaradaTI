@@ -105,6 +105,7 @@ address {
 
 #link {
     border-bottom: 1px dotted;
+    color: #008000;
 }
 
 footer {
@@ -167,10 +168,6 @@ footer p {
         text-align: center;
     }
 
-    .finger-click {
-        width: 7%;
-    }
-
     .icon {
         width: 18%;
     }
@@ -209,10 +206,6 @@ footer p {
     .div-texto {
         margin-left: 5%;
         margin-right: 5%;
-    }
-
-    .finger-click {
-        width: 4%;
     }
 
     .icon {
@@ -275,10 +268,6 @@ footer p {
 
     #atendimento {
         font-size: 20px;
-    }
-
-    .finger-click {
-        display: none;
     }
 
     footer {
