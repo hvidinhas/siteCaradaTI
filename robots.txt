@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /nelcy.html
+
+Sitemap: https://caradati.com.br/sitemap.xml
