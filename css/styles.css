@@ -133,6 +133,57 @@ address {
     font-style: normal;
 }
 
+.acoes-contato {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.8rem 1rem;
+    border: 2px solid #008000;
+    background-color: #008000;
+    color: black;
+    font-family: "SourceCodePro-SemiBold", monospace;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cta-secundario {
+    background-color: transparent;
+    color: #008000;
+}
+
+.etapas-atendimento {
+    padding-left: 1.5rem;
+}
+
+.etapas-atendimento li {
+    margin-bottom: 0.75rem;
+}
+
+.lista-servicos li {
+    margin-bottom: 0.75rem;
+}
+
+.faq details {
+    padding: 1rem 0;
+    border-bottom: 1px solid #008000;
+}
+
+.faq summary {
+    color: white;
+    font-family: "SourceCodePro-SemiBold", monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.faq details p {
+    margin-bottom: 0;
+}
+
 #link {
     border-bottom: 1px dotted;
     color: #008000;
@@ -187,6 +238,16 @@ footer p {
 
     .texto {
         font-size: 18px;
+    }
+
+    .acoes-contato {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .cta {
+        width: 100%;
+        text-align: center;
     }
 
     #atendimento {
