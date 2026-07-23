@@ -1,18 +1,24 @@
 /* Fontes */
 @font-face {
     font-family: "SourceCodePro";
-    src: url("../fonts/Source_Code_Pro/SourceCodePro-Regular.ttf")
+    src: url("../fonts/Source_Code_Pro/SourceCodePro-Regular.woff2")
+            format("woff2"),
+        url("../fonts/Source_Code_Pro/SourceCodePro-Regular.ttf")
         format("truetype");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "SourceCodePro-SemiBold";
-    src: url("../fonts/Source_Code_Pro/SourceCodePro-SemiBold.ttf")
+    src: url("../fonts/Source_Code_Pro/SourceCodePro-SemiBold.woff2")
+            format("woff2"),
+        url("../fonts/Source_Code_Pro/SourceCodePro-SemiBold.ttf")
         format("truetype");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 /** ------------- Global ------------- **/
